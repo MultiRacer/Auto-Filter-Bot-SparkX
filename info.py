@@ -34,8 +34,8 @@ REQST_CHANNEL = int(ch) if (ch := environ.get("REQST_CHANNEL", "")) and id_patte
 SUPPORT_CHAT_ID = int(ch) if (ch := environ.get("SUPPORT_CHAT_ID", "")) and id_pattern.search(ch) else None
 
 OWNER = int(os.environ.get("OWNER", "1255023013"))
-CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://telegram.me/Techifybots')
-GROUP_LINK = environ.get('GROUP_LINK', 'https://telegram.me/TechifySupport')
+CHANNEL_LINK = environ.get('CHANNEL_LINK', 'https://t.me/MR_Tech_Officiall')
+GROUP_LINK = environ.get('GROUP_LINK', 'https://t.me/SparkX_MRTech')
 
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "filter")
@@ -55,9 +55,9 @@ LANDSCAPE_POSTER = bool(environ.get('LANDSCAPE_POSTER', True))
 IS_VERIFY = is_enabled('IS_VERIFY', False)
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', ''))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://i.ibb.co/xqNtSMpS/photo-2025-09-18-15-24-38-7551450511015149572.jpg")
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/TechifyBots")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/TechifyBots")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/TechifyBots")
+TUTORIAL = environ.get("TUTORIAL", "https://youtube.com/shorts/b0ynxP9Ybfc")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://youtube.com/shorts/b0ynxP9Ybfc")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://youtube.com/shorts/b0ynxP9Ybfc")
 SHORTENER_API = environ.get("SHORTENER_API", "055917691bbc26774e10e1f1dea4c828580225ec")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "arolinks.com")
 SHORTENER_API2 = environ.get("SHORTENER_API2", "055917691bbc26774e10e1f1dea4c828580225ec")
@@ -91,8 +91,8 @@ BUTTON_MODE = is_enabled((environ.get('BUTTON_MODE', "False")), False)
 STREAM_MODE = bool(environ.get('STREAM_MODE', True))
 PREMIUM_STREAM_MODE = bool(environ.get('PREMIUM_STREAM_MODE', False))
 
-LANGUAGES = {"ᴛᴀᴍɪʟ":"tam","ᴛᴇʟᴜɢᴜ":"tel","ᴇɴɢʟɪsʜ":"eng","ʜɪɴᴅɪ":"hin","ᴊᴀᴘᴀɴᴇsᴇ":"jap"}
-QUALITIES = ["360P", "480P", "720P", "1080P", "2160p"]
+LANGUAGES = {"ᴛᴀᴍɪʟ":"tam","Kᴀɴɴᴀᴅᴀ":"Kᴀɴ","ᴛᴇʟᴜɢᴜ":"tel","ᴇɴɢʟɪsʜ":"eng","Mᴀʟᴀʏᴀʟᴀᴍ":"Mᴀʟ","ʜɪɴᴅɪ":"hin"}
+QUALITIES = ["360P", "480P", "560P", "720P", "1080P", "2160p"]
 SEASON_COUNT = 12
 SEASONS = [f"S{str(i).zfill(2)}" for i in range(1, SEASON_COUNT + 1)]
 REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
@@ -102,7 +102,7 @@ BAD_WORDS = {"PrivateMovieZ", "toonworld4all", "themoviesboss", "1tamilmv", "tam
 IS_FILE_LIMIT = bool(environ.get('IS_FILE_LIMIT', True)) 
 FILES_LIMIT = int(environ.get("FILES_LIMIT", "48"))
 QUALITY_LIMIT = bool(environ.get('QUALITY_LIMIT', False)) 
-FREE_QUALITIES = ["360p", "480p"]
+FREE_QUALITIES = ["360p", "480p", "560P", "720P", "1080P", "2160p"]
 
 PORT = int(environ.get("PORT", "8080"))
 NO_PORT = bool(environ.get('NO_PORT', False))
